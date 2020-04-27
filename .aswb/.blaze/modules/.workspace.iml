@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="Blaze" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3">
+        <compilerArguments>
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="" />
+        <option name="PROJECT_TYPE" value="1" />
+        <option name="ENABLE_SOURCES_AUTOGENERATION" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../.." isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../.." />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-genfiles" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-mediapipe" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-out" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-testlogs" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="java_compiler_c4724265" level="project" />
+    <orderEntry type="library" name="jdk_compiler_c4724265" level="project" />
+    <orderEntry type="library" name="javac-9+181-r4173-1_c4724265" level="project" />
+    <orderEntry type="library" name="libstream_handler_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libcalculator_options_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="liblandmark_proto-lite-hjar_faaee475" level="project" />
+    <orderEntry type="library" name="liblocation_data_proto-lite-hjar_faaee475" level="project" />
+    <orderEntry type="library" name="librasterization_proto-lite-hjar_e157ed09" level="project" />
+    <orderEntry type="library" name="libstatus_handler_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libmediapipe_options_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libpacket_generator_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libstatus_handler_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libproto_descriptor_proto-speed-hjar_8784dfcb" level="project" />
+    <orderEntry type="library" name="libcalculator_profile_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libmediapipe_options_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libstream_handler_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libpacket_generator_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libcalculator_graph_template_proto-speed-hjar_878c4b1f" level="project" />
+    <orderEntry type="library" name="libpacket_factory_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libpacket_factory_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libdetection_proto-lite-hjar_faaee475" level="project" />
+    <orderEntry type="library" name="libcalculator_options_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libproto_descriptor_proto-lite-hjar_8784dfcb" level="project" />
+    <orderEntry type="library" name="libcalculator_proto-lite-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="libcalculator_graph_template_proto-lite-hjar_878c4b1f" level="project" />
+    <orderEntry type="library" name="libcalculator_proto-speed-hjar_e5cf4828" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+</module>
