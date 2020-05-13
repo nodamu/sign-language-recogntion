@@ -85,7 +85,8 @@ mediapipe_simple_subgraph(
         "//mediapipe/calculators/util:landmarks_to_render_data_calculator",
         "//mediapipe/calculators/util:rect_transformation_calculator",
         "//mediapipe/calculators/util:thresholding_calculator",
-        "//mediapipe/calculators/custom:gesture_recognizer_calculator"
+        "//mediapipe/calculators/custom:gesture_recognizer_calculator",
+        # "//mediapipe/calulators/custom:print_hand_vector_calculator",
         # "//mediapipe/calulators/custom:gesture_recognizer_calculator",
     ],
 )
@@ -190,6 +191,7 @@ mediapipe_simple_subgraph(
         "//mediapipe/calculators/util:landmarks_to_detection_calculator",
         "//mediapipe/calculators/util:rect_transformation_calculator",
         "//mediapipe/calculators/util:thresholding_calculator",
+        "//mediapipe/calulators/custom:print_hand_vector_calculator",
     ],
 )
 

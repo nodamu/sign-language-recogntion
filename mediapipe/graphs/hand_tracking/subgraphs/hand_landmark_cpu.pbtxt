@@ -170,11 +170,13 @@ node {
 
 # Recognizes defined gestures 
 node {
-      calculator: "GestureRecognizerCalculator"
-      input_stream: "NORM_LANDMARKS:scaled_landmarks"
-      input_stream: "NORM_RECT:hand_rect_for_next_frame"
-      output_stream: "RECOGNIZED_HAND_GESTURE:gesture_text"
+    calculator: "GestureRecognizerCalculator"
+    input_stream: "NORM_LANDMARKS:scaled_landmarks"
+    input_stream: "NORM_RECT:hand_rect_for_next_frame"
+    output_stream: "RECOGNIZED_HAND_GESTURE:gesture_text"
     }
+
+
 # Expands the hand rectangle so that in the next video frame it's likely to
 # still contain the hand even with some motion.
 node {

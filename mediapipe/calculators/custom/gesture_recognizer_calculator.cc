@@ -92,8 +92,18 @@ REGISTER_CALCULATOR(GestureRecognizerCalculator);
     }
 
     const auto &landmarkList = cc->Inputs().Tag(normalizedLandmarkListTag).Get<NormalizedLandmarkList>();
+    // const auto &landmark_vector = cc->Inputs().Tag(normalizedLandmarkListTag).Get<std::vector<NormalizedLandmarkList>>();
     RET_CHECK_GT(landmarkList.landmark_size(), 0) << "Input landmark vector is empty";
 
+    // for (int i = 0; i < landmarkList.landmark_size(); ++i)
+    // {
+    //     const mediapipe::NormalizedLandmark &landmark = landmarkList.landmark(i);
+    //     LOG(INFO) << "x coordinate: " << landmark.x();
+    //     LOG(INFO) << "y coordinate: " << landmark.y();
+    //     LOG(INFO) << "z coordinate: " << landmark.z();
+    // }
+    landmarkList.PrintDebugString();
+    
     // finger states
     bool thumbIsOpen = false;
     bool firstFingerIsOpen = false;
@@ -167,7 +177,6 @@ REGISTER_CALCULATOR(GestureRecognizerCalculator);
     {
         LOG(INFO) << "ROCK!";
         gesture_text = new std::string("ROCK");
-
     }
     else if (thumbIsOpen && firstFingerIsOpen && !secondFingerIsOpen && !thirdFingerIsOpen && fourthFingerIsOpen)
     {
@@ -192,7 +201,7 @@ REGISTER_CALCULATOR(GestureRecognizerCalculator);
     }
 
     // We set output stream to recognized hand gesture text
-    cc->Outputs().Tag(recognizedHandGestureTag).Add(gesture_text,cc->InputTimestamp());
+    cc->Outputs().Tag(recognizedHandGestureTag).Add(gesture_text, cc->InputTimestamp());
 
     return ::mediapipe::OkStatus();
 }
