@@ -47,9 +47,9 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tra
     --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_mobile.pbtxt
 ```
 
-## Custom hand gesture recognition calculator built on top of mediapipe
+## Custom hand gesture recognition calculator built on with mediapipe
 
-- <strong>GestureRecognizer </strong>
+- <strong>GestureRecognizer calulator</strong>
 - It currently uses finger state to detect signs i.e bent, straight relative to thumb
 - Currently working on using <em><strong>weighted matching</strong></em>
 - ![Gesture Calulator](mediapipe/docs/images/custom_hand.png)
