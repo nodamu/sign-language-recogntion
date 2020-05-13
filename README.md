@@ -2,8 +2,6 @@
 
 # Hand gesture recognition with Mediapipe
 
-==================================================================================================================================================
-
 [MediaPipe](http://mediapipe.dev) is a framework for building multimodal (eg. video, audio, any time series data), cross platform (i.e Android, iOS, web, edge devices) applied ML pipelines. With MediaPipe, a perception pipeline can be built as a graph of modular components, including, for instance, inference models (e.g., TensorFlow, TFLite) and media processing functions.
 
 ## Installation
@@ -47,7 +45,7 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tra
     --calculator_graph_config_file=mediapipe/graphs/hand_tracking/hand_tracking_mobile.pbtxt
 ```
 
-## Custom hand gesture recognition calculator built on with mediapipe
+## Custom hand gesture recognition calculator built with mediapipe
 
 - <strong>GestureRecognizer calulator</strong>
 - It currently uses finger state to detect signs i.e bent, straight relative to thumb
