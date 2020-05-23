@@ -50,4 +50,5 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tra
 - <strong>GestureRecognizer calulator</strong>
 - It currently uses finger state to detect signs i.e bent, straight relative to thumb
 - Currently working on using <em><strong>weighted matching</strong></em>
-- ![Gesture Calulator](mediapipe/docs/images/custom_hand.png)
+- <p>![Gesture Calulator](mediapipe/docs/images/custom_hand.png)</p>
+- To view graph in visualizer, upload [hand_landmark_cpu.pbtxt](https://github.com/nodamu/sign-langage-recogntion/blob/97f4a3cc6d7b98d79ca1b0e1400b20279792c492/mediapipe/graphs/hand_tracking/subgraphs/hand_landmark_cpu.pbtxt) to [MediaPipe Visualizer](https://viz.mediapipe.dev).
