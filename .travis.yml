@@ -13,4 +13,4 @@ before_script:
 jobs:
   include:
     - stage: Bazel build
-      script: ./run.sh
+      script: sudo ./run.sh
