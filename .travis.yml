@@ -12,4 +12,5 @@ before_script:
 
 jobs:
   include:
-    - stage: 
+    - stage: Bazel build
+      script: ./run.sh
