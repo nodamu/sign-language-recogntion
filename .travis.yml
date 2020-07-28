@@ -10,7 +10,7 @@ before_install:
   - sudo apt update && sudo apt install bazel
 
 before_script:
-  - ./setup_opencv.sh
+  - sudo ./setup_opencv.sh
 
 jobs:
   include:
