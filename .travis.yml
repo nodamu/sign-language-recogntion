@@ -8,11 +8,12 @@ before_install:
   - curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
   - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
   - sudo apt update && sudo apt install bazel
+  - sudo apt-get install libopencv-core-dev libopencv-highgui-dev \
+                       libopencv-calib3d-dev libopencv-features2d-dev \
+                       libopencv-imgproc-dev libopencv-video-dev
+
 
 jobs:
   include:
-    - stage: OpenCV config
-      script: sudo ./setup_opencv.sh
-
     - stage: Bazel build
       script: ./run.sh
