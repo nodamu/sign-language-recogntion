@@ -9,10 +9,10 @@ before_install:
   - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
   - sudo apt update && sudo apt install bazel
 
-before_script:
-  - sudo ./setup_opencv.sh
-
 jobs:
   include:
+    - stage: OpenCV config
+      script: ./setup_opencv.sh
+      
     - stage: Bazel build
       script: ./run.sh
