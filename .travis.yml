@@ -12,7 +12,7 @@ before_install:
 jobs:
   include:
     - stage: OpenCV config
-      script: ./setup_opencv.sh
-      
+      script: sudo ./setup_opencv.sh
+
     - stage: Bazel build
       script: ./run.sh
