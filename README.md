@@ -1,4 +1,5 @@
 <!-- ![MediaPipe](mediapipe/docs/images/mediapipe_small.png?raw=true "MediaPipe logo") -->
+[![Build Status](https://travis-ci.org/nodamu/sign-language-recogntion.svg?branch=master)](https://travis-ci.org/nodamu/sign-language-recogntion)
 
 # Hand gesture recognition with Mediapipe
 
