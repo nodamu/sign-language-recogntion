@@ -1,4 +1,5 @@
 <!-- ![MediaPipe](mediapipe/docs/images/mediapipe_small.png?raw=true "MediaPipe logo") -->
+[![Build Status](https://travis-ci.org/nodamu/sign-language-recogntion.svg?branch=master)](https://travis-ci.org/nodamu/sign-language-recogntion)
 
 # Hand gesture recognition with Mediapipe
 
@@ -52,3 +53,10 @@ $ GLOG_logtostderr=1 bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tra
 - It currently uses finger state to detect signs i.e bent, straight relative to thumb
 - Currently working on using <em><strong>weighted matching</strong></em>
 - To view graph in visualizer, upload [hand_landmark_cpu.pbtxt](https://github.com/nodamu/sign-langage-recogntion/blob/97f4a3cc6d7b98d79ca1b0e1400b20279792c492/mediapipe/graphs/hand_tracking/subgraphs/hand_landmark_cpu.pbtxt) to [MediaPipe Visualizer](https://viz.mediapipe.dev).
+
+## Roadmap
+
+- Implement a robust similarity matching function(Working on a weighted matching function)
+- Hook up Travis CI for remote builds and Continuous integration
+- Sign/Gesture preseting and storage
+- Port to mobile platforms(Android and iOS)
