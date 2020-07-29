@@ -1,0 +1,1 @@
+sudo rm /usr/local/{bin,lib}/*opencv* 
