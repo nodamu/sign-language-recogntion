@@ -8,8 +8,8 @@ before_install:
   - curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
   - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
   - sudo apt update && sudo apt install bazel-1.0.0
-
-before_script: sh ./setup_opencv.sh
+  - sudo apt update && sudo apt install build-essential git
+  - sudo apt install cmake ffmpeg libavformat-dev libdc1394-22-dev libgtk2.0-dev libjpeg-dev libpng-dev libswscale-dev libtbb2 libtbb-dev libtiff-dev
 
 cache:
   directories:
