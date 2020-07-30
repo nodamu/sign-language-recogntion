@@ -11,9 +11,13 @@ before_install:
 
 before_script: sh ./setup_opencv.sh
 
+cache:
+  directories:
+    - /usr/lib/
+    - /usr/include/
 
 
 jobs:
   include:
     - stage: Bazel build
-      script: sh ./run.sh
+      script: sh ./build.sh
