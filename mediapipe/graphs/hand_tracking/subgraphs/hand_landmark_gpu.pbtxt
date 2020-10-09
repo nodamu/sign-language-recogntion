@@ -163,7 +163,7 @@ node {
     }
   }
 }
-
+# GestureRecognizerCalculator GPU 
 node {
       calculator: "GestureRecognizerCalculator"
       input_stream: "NORM_LANDMARKS:scaled_landmarks"
