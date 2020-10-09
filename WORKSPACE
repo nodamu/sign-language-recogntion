@@ -278,10 +278,12 @@ maven_jar(
 # You may run setup_android.sh to install Android SDK and NDK.
 android_ndk_repository(
     name = "androidndk",
+    path = "/media/profnick/F27CDC9F7CDC5FC1/Linux_Apps/Android/Sdk/ndk/21.0.6113669/"
 )
 
 android_sdk_repository(
     name = "androidsdk",
+    path = "/media/profnick/F27CDC9F7CDC5FC1/Linux_Apps/Android/Sdk/"
 )
 
 # iOS basic build deps.
